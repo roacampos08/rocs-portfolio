@@ -1,4 +1,4 @@
-# styled-jsx
+
 # Rodrigo's Personal Portfolio
 
 This is the source code for my personal portfolio website, designed to showcase my skills, projects, and professional experience as an aspiring Data Analyst. It's built with modern web technologies to provide a clean, responsive, and engaging user experience.
