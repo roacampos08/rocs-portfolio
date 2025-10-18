@@ -4,7 +4,7 @@
 This is the source code for my personal portfolio website, designed to showcase my skills, projects, and professional experience as an aspiring Data Analyst. It's built with modern web technologies to provide a clean, responsive, and engaging user experience.
 
 Full, scoped and component-friendly CSS support for JSX (rendered on the server or the client).
-## ✨ Features
+##  Features
 
 Code and docs are for v3 which we highly recommend you to try. Looking for styled-jsx v2? Switch to the [v2 branch](https://github.com/vercel/styled-jsx/tree/v2).
 - **Modern & Responsive Design**: Built with Tailwind CSS for a utility-first, mobile-friendly layout that looks great on all devices.
@@ -21,18 +21,6 @@ Code and docs are for v3 which we highly recommend you to try. Looking for style
 - **Animations**: [Framer Motion](https://www.motion.dev)
 - **Smooth Scrolling**: [Lenis](https://github.com/studio-freight/lenis)
 
-## Features
-
-- Full CSS support, no tradeoffs in power
-- Runtime size of just **3kb** (gzipped, from 12kb)
-- Complete isolation: Selectors, animations, keyframes
-- Built-in CSS vendor prefixing
-- Very fast, minimal and efficient transpilation (see below)
-- High-performance runtime-CSS-injection when not server-rendering
-- Future-proof: Equivalent to server-renderable "Shadow CSS"
-- Source maps support
-- Dynamic styles and themes support
-- CSS Preprocessing via Plugins
 
 
 ## Author
