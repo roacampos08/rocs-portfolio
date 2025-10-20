@@ -13,11 +13,11 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   useEffect(() => {
-    // Importación dinámica de Lenis
+   
     const initLenis = async () => {
       const Lenis = (await import('lenis')).default;
       
-      // Inicializar Lenis
+      
       const lenis = new Lenis({
         duration: 1.2,
         easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -30,7 +30,7 @@ export default function Home() {
         infinite: false,
       });
 
-      // Función de animación
+      
       function raf(time) {
         lenis.raf(time);
         requestAnimationFrame(raf);
@@ -38,7 +38,7 @@ export default function Home() {
 
       requestAnimationFrame(raf);
 
-      // Cleanup
+     
       return () => {
         lenis.destroy();
       };
@@ -60,7 +60,7 @@ export default function Home() {
         <About />
         <Skill />
         <Work />
-        <Reviews />
+        
         <Contact />
         <Footer />
       </main>
