@@ -49,7 +49,7 @@ export default function Work() {
       const scrollHeight = container.offsetHeight;
       const viewportHeight = window.innerHeight;
 
-      // Calcular el progreso del scroll
+     
       const scrollStart = rect.top;
       const scrollEnd = rect.bottom - viewportHeight;
       const totalScroll = scrollHeight - viewportHeight;
@@ -64,14 +64,14 @@ export default function Work() {
         progress = 1;
       }
 
-      // Limitar entre 0 y 1
+     
       progress = Math.max(0, Math.min(1, progress));
 
-      // Animar el translateX del grupo de proyectos
+     
       const maxTranslate = (works.length - 1) * 100;
       groupRef.current.style.transform = `translateX(-${progress * maxTranslate}vw)`;
 
-      // Mostrar/ocultar y animar la barra de progreso
+     
       if (isInView) {
         progressRef.current.style.opacity = '1';
         progressRef.current.style.transform = `scaleX(${progress})`;
@@ -81,21 +81,21 @@ export default function Work() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Ejecutar una vez al montar
+    handleScroll(); 
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [works.length]);
 
   return (
     <section id="work" className="pt-20 lg:pt-32">
-      {/* Header */}
+      
       <div className="px-4 mx-auto lg:px-8 xl:max-w-6xl mb-16">
         <h2 className="text-3xl lg:text-5xl font-bold text-center">
           My Recent Works
         </h2>
       </div>
 
-      {/* Horizontal Scroll Container */}
+     
       <div ref={containerRef} className="relative" style={{ height: `${works.length * 100}vh` }}>
         <div className="sticky top-0 h-screen overflow-hidden">
           <div 
@@ -122,19 +122,19 @@ export default function Work() {
         </div>
       </div>
 
-      {/* Progress Bar */}
+     
       <div 
         ref={progressRef}
         className="fixed left-0 right-0 bottom-12 h-1 bg-gradient-to-r from-[#2196F3] to-[#64B5F6] origin-left transition-opacity duration-300 z-50"
         style={{ transform: 'scaleX(0)', opacity: 0 }}
       />
 
-      {/* Footer */}
+     
       <div className="h-[40vh] flex items-center justify-center">
         <p className="text-zinc-400 text-lg">
           Explore more projects on{' '}
           <a 
-            href="https://github.com" 
+            href="https://github.com/roacampos08" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-[#2196F3] hover:underline"
