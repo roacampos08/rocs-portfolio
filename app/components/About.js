@@ -52,7 +52,7 @@ export default function About() {
           within organizations.
         </p>
 
-        {/* Estadísticas e imagen */}
+        
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
           {/* Estadísticas */}
           <div className="flex gap-8 md:gap-14">
@@ -73,7 +73,7 @@ export default function About() {
             ))}
           </div>
 
-          {/* Imagen decorativa */}
+          
           <div className="flex justify-center md:justify-end">
             <img
               src="/images/rocs.png"
@@ -89,7 +89,7 @@ export default function About() {
   );
 }
 
-// Componente para animar números
+
 function AnimatedNumber({ value, suffix, isVisible }) {
   const [displayValue, setDisplayValue] = useState(0);
 
