@@ -6,18 +6,18 @@ export default function Reviews() {
 
   const reviews = [
     {
-      name: 'Sarah Johnson',
-      position: 'CEO at TechVision',
-      image: 'https://randomuser.me/api/portraits/women/44.jpg',
+      name: 'Mercedes Segura',
+      position: '¡Supérate! Hilasal\'s Principal',
+      image: '/images/mercy.jpeg',
       rating: 5,
-      text: 'Working with Rodrigo was an absolute pleasure. His ability to transform complex data into clear, actionable insights helped us make strategic decisions that increased our revenue by 30%. Highly recommended!',
+      text: 'I would describe Rodrigo Campos as a resilient person with a desire to excel. He is decisive and sets goals with determination. I have observed that he is willing to transform his environment in a positive way. He is analytical, thinks critically, and communicates assertively. I believe he is focused on helping the community to become a society with a transformative vision for new generations. He is focused and a very well-rounded person, both academically and personally.'
     },
     {
-      name: 'Michael Chen',
-      position: 'Data Manager at Analytics Pro',
-      image: 'https://randomuser.me/api/portraits/men/32.jpg',
+      name: 'Irvin Pineda',
+      position: 'Computer science teacher at ¡Supérate! Hilasal Center',
+      image: '/images/irvin.jpg',
       rating: 5,
-      text: 'Rodrigo\'s expertise in data analysis is exceptional. He not only delivered comprehensive dashboards but also provided valuable recommendations that transformed our business processes.',
+      text: 'Rodrigo is a highly responsible young man with outstanding programming skills and a willingness to take on new challenges. He is characterized by his commitment to continuous improvement and his ability to find efficient solutions to complex problems. In addition to being an excellent programmer, he demonstrates strong leadership, fostering teamwork and guiding his colleagues toward achieving common goals. I am confident that Rodrigo will continue to excel in his professional career, making significant contributions to any organization he joins.',
     },
     {
       name: 'Emma Rodriguez',
@@ -53,12 +53,12 @@ export default function Reviews() {
             Reviews
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            What people say about working with me
+            What people say about me
           </p>
         </div>
 
         {/* Review Card */}
-        <div className="relative max-w-3xl mx-auto">
+        <div className="relative max-w-2xl mx-auto">
           <div className="bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 rounded-3xl p-8 md:p-12 shadow-xl border border-zinc-700/40">
             
             {/* Stars */}
@@ -75,7 +75,7 @@ export default function Reviews() {
             </div>
 
             {/* Review Text */}
-            <blockquote className="text-zinc-200 text-lg md:text-xl leading-relaxed text-center mb-8 min-h-[120px] flex items-center justify-center">
+            <blockquote className="text-zinc-200 text-xl md:text-sm leading-relaxed text-center mb-8 min-h-[100px] flex items-center justify-center">
               "{reviews[activeIndex].text}"
             </blockquote>
 
