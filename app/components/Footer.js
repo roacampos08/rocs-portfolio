@@ -36,7 +36,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <SocialIcon pathD={paths.github} label="GitHub" />,
-      href: 'https://github.com/roacampos08',
+      href: 'https://github.com/usernumber89',
       label: 'GitHub'
     },
     {

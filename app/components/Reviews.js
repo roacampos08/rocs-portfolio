@@ -19,20 +19,7 @@ export default function Reviews() {
       rating: 5,
       text: 'Rodrigo is a highly responsible young man with outstanding programming skills and a willingness to take on new challenges. He is characterized by his commitment to continuous improvement and his ability to find efficient solutions to complex problems. In addition to being an excellent programmer, he demonstrates strong leadership, fostering teamwork and guiding his colleagues toward achieving common goals. I am confident that Rodrigo will continue to excel in his professional career, making significant contributions to any organization he joins.',
     },
-    {
-      name: 'Emma Rodriguez',
-      position: 'Marketing Director at Growth Labs',
-      image: 'https://randomuser.me/api/portraits/women/68.jpg',
-      rating: 5,
-      text: 'The Power BI dashboards Rodrigo created for our marketing team were game-changing. His attention to detail and ability to understand our needs made the entire process seamless.',
-    },
-    {
-      name: 'David Thompson',
-      position: 'Founder at StartupHub',
-      image: 'https://randomuser.me/api/portraits/men/45.jpg',
-      rating: 5,
-      text: 'Incredible work! Rodrigo helped us identify key trends in our customer data that we had completely overlooked. His analytical skills are top-notch.',
-    },
+    
   ];
 
   const nextReview = () => {
