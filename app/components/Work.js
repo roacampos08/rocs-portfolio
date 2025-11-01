@@ -134,7 +134,7 @@ export default function Work() {
         <p className="text-zinc-400 text-lg">
           Explore more projects on{' '}
           <a 
-            href="https://github.com/roacampos08" 
+            href="https://github.com/usernumber89" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-[#2196F3] hover:underline"
