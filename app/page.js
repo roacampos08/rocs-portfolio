@@ -10,6 +10,7 @@ import Work from "./components/Work";
 import CustomCursor from "./components/CustomCursor";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import EventsGallery from "./components/Gallery";
 
 export default function Home() {
   useEffect(() => {
@@ -60,6 +61,7 @@ export default function Home() {
         <About />
         <Skill />
         <Work />
+        <EventsGallery />
         <Reviews />
         <Contact />
         <Footer />

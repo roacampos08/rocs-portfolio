@@ -125,7 +125,7 @@ export default function Work() {
      
       <div 
         ref={progressRef}
-        className="fixed left-0 right-0 bottom-12 h-1 bg-gradient-to-r from-[#2196F3] to-[#64B5F6] origin-left transition-opacity duration-300 z-50"
+        className="fixed left-0 right-0 bottom-5 h-1 bg-gradient-to-r from-[#2196F3] to-[#64B5F6] origin-left transition-opacity duration-300 z-50"
         style={{ transform: 'scaleX(0)', opacity: 0 }}
       />
 

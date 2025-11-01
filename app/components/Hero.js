@@ -1,15 +1,21 @@
 'use client'
 import React from 'react'
 import Button from './Button'
-import { Linkedin } from 'lucide-react'
+import { Linkedin, ChevronDown } from 'lucide-react'
 import { IoDownload } from 'react-icons/io5'
 import Button2 from './Button2'
 
 export default function Hero() {
  
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById('about') || document.querySelector('section:nth-of-type(2)')
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
  
   return (
-    <section id='home' className='pt-20 md:pt-24 lg:pt-28'>
+    <section id='home' className='pt-20 md:pt-24 lg:pt-28 relative'>
       <div className='px-4 mx-auto md:px-6 lg:px-8 xl:max-w-5xl md:grid md:grid-cols-2 items-center md:gap-8'>
         
         {/* Texto principal */}
@@ -46,22 +52,29 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Imagen principal */}
+        
         <div className='hidden md:block'>
-         <figure className='w-full max-w-[260px] md:max-w-[280px] lg:max-w-[320px] mx-auto md:ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[35px] overflow-hidden'>
+         <figure className='w-full max-w-[240px] md:max-w-[260px] lg:max-w-[300px] mx-auto md:ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[35px] overflow-hidden'>
             <img
-              src='/images/principal.png'
-              width={320}
-              height={280}
+              src='/images/ro.png'
+              width={300}
+              height={260}
               alt='Hero Image'
               className='w-full h-auto object-cover'
             />
           </figure>
-
-
         </div>
 
       </div>
+
+      {/* Botón de scroll minimalista */}
+      <button 
+        onClick={scrollToNextSection}
+        className='absolute bottom-8 left-1/2 -translate-x-1/2 text-zinc-400 hover:text-zinc-100 transition-colors'
+        aria-label='Scroll to next section'
+      >
+        <ChevronDown className='w-6 h-6 animate-bounce' />
+      </button>
     </section>
   )
 }
