@@ -60,7 +60,7 @@ export default function Home() {
         <About />
         <Skill />
         <Work />
-        
+        <Reviews />
         <Contact />
         <Footer />
       </main>
