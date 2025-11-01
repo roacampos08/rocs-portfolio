@@ -130,7 +130,7 @@ export default function Work() {
       />
 
      
-      <div className="h-[40vh] flex items-center justify-center">
+      <div className="h-[30vh] flex items-center justify-center">
         <p className="text-zinc-400 text-lg">
           Explore more projects on{' '}
           <a 
