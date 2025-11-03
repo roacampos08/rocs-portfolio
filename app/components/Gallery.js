@@ -26,7 +26,7 @@ export default function EventsGallery() {
     },
     {
       id: 3,
-      title: 'Expo Tech',
+      title: 'Expo Tech 2025',
       role: 'Speaker',
       date: 'July 2025',
       location: 'Hotel Hilton, San Salvador',
