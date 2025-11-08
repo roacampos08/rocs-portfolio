@@ -92,10 +92,7 @@ export default function EventsGallery() {
                     </span>
                   </div>
 
-                  {/* Arrow icon */}
-                  <div className='absolute top-4 left-4 w-8 h-8 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-md border border-white/20 group-hover:bg-sky-400 group-hover:border-sky-400 transition-all duration-300'>
-                    <ArrowUpRight className='w-4 h-4 text-white' />
-                  </div>
+                  
                 </div>
 
                 {/* Content Section */}

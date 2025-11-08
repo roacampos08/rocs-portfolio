@@ -11,6 +11,7 @@ import CustomCursor from "./components/CustomCursor";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import EventsGallery from "./components/Gallery";
+import Certificates from "./components/Certificates";
 
 export default function Home() {
   useEffect(() => {
@@ -62,6 +63,7 @@ export default function Home() {
         <Skill />
         <Work />
         <EventsGallery />
+        <Certificates/>
         <Reviews />
         <Contact />
         <Footer />

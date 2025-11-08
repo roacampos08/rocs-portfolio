@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 export default function Button({ href, target = '_self', label, icon, classes }) {
   const handleDownloadCV = () => {
     const link = document.createElement('a')
-    link.href = '/CV_Rodrigo_C.pdf'
+    link.href = '/CV_Rodrigo.pdf'
     link.download = 'CV_Rodrigo.pdf'
     link.click()
   }

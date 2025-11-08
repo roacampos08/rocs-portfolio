@@ -23,6 +23,7 @@ export default function Navbar() {
     { label: "About", link: "#about" },
     { label: "Work", link: "#work" },
     {label: "Gallery", link: "#events" },
+    {label: "Certificates", link: "#certificates"},
     { label: "Reviews", link: "#reviews" },
     { label: "Contact", link: "#contact" },
   ];
