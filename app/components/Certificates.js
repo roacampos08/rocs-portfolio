@@ -37,7 +37,7 @@ export default function Certificates() {
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0415001016672',
-      link: '/liderezgo.pdf',
+      link: '/liderazgo.pdf',
       skills: ['Teamwork', 'Leadership Development', 'Leadership']
     },
     {
