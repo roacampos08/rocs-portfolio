@@ -10,7 +10,7 @@ export default function Certificates() {
       issuer: 'Google Digital Academy (Skillshop)',
       date: 'May 2025',
       credentialId: '389569176',
-      link: '#',
+      link: 'https://skillshop.exceedlms.com/student/award/Yg6shBrAUUTn3x5srfnXMdzS',
       skills: ['Problem Solving']
     },
     {
@@ -19,7 +19,7 @@ export default function Certificates() {
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0415001014377',
-      link: '#',
+      link: '/comunicacion.pdf',
       skills: ['Teamwork', 'Effective Communication']
     },
     {
@@ -28,7 +28,7 @@ export default function Certificates() {
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0412001008421',
-      link: '#',
+      link: '/proyectos.pdf',
       skills: ['Teamwork', 'Agile Methodologies', 'Scrum', 'Time Management', 'Project Management']
     },
     {
@@ -37,7 +37,7 @@ export default function Certificates() {
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0415001016672',
-      link: '#',
+      link: '/liderezgo.pdf',
       skills: ['Teamwork', 'Leadership Development', 'Leadership']
     },
     {
@@ -46,7 +46,7 @@ export default function Certificates() {
       issuer: 'Certiport - A Pearson VUE Business',
       date: 'November 2024',
       credentialId: 'uLuK-XaqA',
-      link: '#',
+      link: 'https://www.certiport.com/portal/pages/credentialverification.aspx',
       skills: ['Microsoft Office', 'Data Analysis']
     },
     {
@@ -55,7 +55,7 @@ export default function Certificates() {
       issuer: 'ODILO',
       date: '2024',
       credentialId: '11ee8a72a46b31b3abfb5dc50a692',
-      link: '#',
+      link: 'gestion_p.pdf',
       skills: ['Public Management']
     },
     {
@@ -64,7 +64,7 @@ export default function Certificates() {
       issuer: 'Udemy - KODIGO',
       date: '2024',
       credentialId: 'UC-1c64dcbf-22eb-4b18-8afa-47b3a53d9eb5',
-      link: '#',
+      link: 'https://www.udemy.com/certificate/UC-1c64dcbf-22eb-4b18-8afa-47b3a53d9eb5/',
       skills: ['Git', 'GitHub', 'Version Control']
     }
   ]
