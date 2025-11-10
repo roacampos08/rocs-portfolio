@@ -22,7 +22,7 @@ export default function Reviews() {
     {
       name: 'Eduardo Paices',
       position: 'English Teacher at ¡Supérate! Hilasal Center',
-      image: '/images/irvin.jpg',
+      image: '/images/paices.jpg',
       rating: 5,
       text: 'Rodrigo Antonio Campos Alvarenga is one of those rare students who leaves a lasting impression. As his ESL teacher, I watched him combine his outstanding English skills with a sharp, innovative mind. His teamwork, leadership and vision were perfectly demonstrated when he and his team won the Supérate ExpoTech contest with a tech application celebrated for its creativity and social benefit. Thoughtful, articulate, and driven to make a difference, he is exactly the kind of talent and character any organization would be lucky to have.',
     },
