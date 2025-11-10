@@ -19,6 +19,13 @@ export default function Reviews() {
       rating: 5,
       text: 'Rodrigo is a highly responsible young man with outstanding programming skills and a willingness to take on new challenges. He is characterized by his commitment to continuous improvement and his ability to find efficient solutions to complex problems. In addition to being an excellent programmer, he demonstrates strong leadership, fostering teamwork and guiding his colleagues toward achieving common goals. I am confident that Rodrigo will continue to excel in his professional career, making significant contributions to any organization he joins.',
     },
+    {
+      name: 'Eduardo Paices',
+      position: 'English Teacher at ¡Supérate! Hilasal Center',
+      image: '/images/irvin.jpg',
+      rating: 5,
+      text: 'Rodrigo Antonio Campos Alvarenga is one of those rare students who leaves a lasting impression. As his ESL teacher, I watched him combine his outstanding English skills with a sharp, innovative mind. His teamwork, leadership and vision were perfectly demonstrated when he and his team won the Supérate ExpoTech contest with a tech application celebrated for its creativity and social benefit. Thoughtful, articulate, and driven to make a difference, he is exactly the kind of talent and character any organization would be lucky to have.',
+    },
     
   ];
 
